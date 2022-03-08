@@ -4,10 +4,24 @@
   --tertiary: #000080bd;
 }
 
+body{
+  background-color: #61dafb;
+}
 * {
   box-sizing: border-box;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.head {
+  align-self: center;
+  color: var(--secondary);
+  
+
+}
 .container-aboutme {
   background-color: var(--tertiary);
 
