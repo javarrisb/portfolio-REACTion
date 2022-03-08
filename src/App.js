@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About.js';
 import Header from './components/Header.js';
 import Nav from './components/Nav.js';
+import Contact from './components/Contact.js';
 
 function App() {
   const [currentCategory, setCurrentCategory] = useState('About');
