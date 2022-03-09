@@ -1,11 +1,16 @@
 :root {
-  --primary:  #ffdb58;
-  --secondary: #f88379;
-  --tertiary: #000080bd;
+  --font-base: 'Montserrat', sans-serif;
+
+  --color-gold: #ecc01e;
+  --color-navy: #000080;
+  --color-white: #ffffff;
+  --color-pink: #ff66cc;
+  --color-blue: #87ceeb;
 }
 
-body{
-  background-color: #61dafb;
+body {
+  background-color: var(--color-blue);
+  color: var(--color-navy);
 }
 * {
   box-sizing: border-box;
@@ -18,16 +23,21 @@ body{
 
 .head {
   align-self: center;
-  color: var(--secondary);
-  
-
+  color: var(--color-navy);
 }
 .container-aboutme {
-  background-color: var(--tertiary);
-
+  background-color: var(--color-gold);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+  margin: auto;
+  margin-top: 6vh;
+  border: 2px solid var(--color-gold);
 }
 .header-ab {
   color: var(--secondary);
+  display: flex;
 }
 .mypic {
   display: flex;
@@ -40,6 +50,26 @@ body{
 .aboutme-text {
   font-size: 4.5vm;
   color: var(--secondary);
+}
+
+.nav {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 2vw;
+  margin: 1vw 6vw;
+}
+
+.nav-info {
+  color: var(--color-navy);
+  text-decoration: none;
+}
+
+.nav-info-active {
+  color: var(--color-gold);
+  text-decoration: none;
+  border: 2px solid;
 }
 .App {
   text-align: center;

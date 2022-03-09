@@ -34,26 +34,26 @@ const Portfolio = ({ projects }) => {
         }
     ])
 
-    const currentProjects = photos.filter(photo => photo.work === work);
+    const currentProjects = photos.filter(photo => photo.projects === projects);
 
-    return(
+    return (
         <div className='portfolio-container'>
             <h1 className='portfolio-header'>My Projects</h1>
             {currentProjects.map((image, i) => (
                 <div key={image.name} className='portfolio-div'>
                     <h2 className='image-name'>{image.name}</h2>
                     <a href={image.deployed} target="_blank" rel='noreferrer' className='aahref'>
-                        <img 
-                        src={requestAnimationFrame(`../../assets/images/${i}.png`)}
-                        alt={image.name}
-                        key={image.name}
-                        className="image-project" 
+                        <img
+                            src={requestAnimationFrame(`../../assets/images/${i}.png`)}
+                            alt={image.name}
+                            key={image.name}
+                            className="image-project"
                         />
-                        </a>
-                        <a href={image.github} target="_blank" rel='noreferrer' className='glink'></a>
-                        </div>
-                    ))}
-            </div>
+                    </a>
+                    <a href={image.github} target="_blank" rel='noreferrer' className='glink'></a>
+                </div>
+            ))}
+        </div>
     );
 
 };
