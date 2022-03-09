@@ -28,7 +28,7 @@ function App() {
   return (
     <div className="App">
       <Header />
-        <About />
+        <Nav currentCategory={currentCategory} handleCategoryChange={handleCategoryChange} />
       
     </div>
   );
