@@ -20,7 +20,7 @@
   # Usage 
   
   To use this application, run 'npm start' in the command line to connect to the server and start the application.
-  
+  Click here to view the deployed application: https://javarrisb.github.io/portfolio-REACTion/
   
  # Screenshot 
  
