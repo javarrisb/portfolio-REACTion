@@ -9,9 +9,8 @@ function Contact() {
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
-            console.log(isValid);
             if (!isValid) {
-                setErrorMessage("Email address is needed!");
+                setErrorMessage('Your email is invalid!');
             } else {
                 setErrorMessage('');
             }
@@ -31,7 +30,9 @@ function Contact() {
 
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
+        if (!errorMessage) {
+            console.log(formState);
+        }
     }
 
     return (

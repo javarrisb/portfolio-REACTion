@@ -1,5 +1,4 @@
 import React from 'react';
-import resume from '../../assets/images/Resume.png';
 
 function Resume() {
     return (
@@ -8,7 +7,22 @@ function Resume() {
                 Resume
             </h1>
             <div>
-                <h2>Front End Skills</h2>
+                <h2>Front-End Skills</h2>
+                <ul className='skills-list'>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </div>
+            <div>
+                <h2>Back-End Skills</h2>
+                <ul className='skills-list'>
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
             </div>
             <a href="resume/Resume.pdf" className='link-resume' download="Javarris Barnett Resume">Click here to download my resume</a>
         </div>
