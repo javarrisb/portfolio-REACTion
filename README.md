@@ -1,7 +1,7 @@
 # Portfolio-REACTion
 
 # Description
- My portfolio is a single page application built with React that displays the work that I have done. Sections of my portfolio include About me which gives a brief description about me and my background, Portfolio which shows a few of the projects I have done and contributed to, Contact section which enbales you to enter a name, email and message and a Resume section which allows you to view my technical skills as well as click on a downloable version of my resume. 
+ My portfolio is a single page application built with React that displays the work that I have done. Sections of my portfolio include an About me section which gives a brief description about me and my background, a Portfolio section which shows a few of the projects I have done and contributed to, a Contact section which enbales you to enter a name, email and message and a Resume section which allows you to view my technical skills as well as click on a downloable version of my resume. 
 
 
 # Table of Contents
