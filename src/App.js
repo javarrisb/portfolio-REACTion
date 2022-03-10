@@ -29,7 +29,7 @@ function App() {
   const handleCategoryChange = (category) => setCurrentCategory(category);
 
   return (
-    <div className="App">
+    <div>
       <Header />
       <Nav currentCategory={currentCategory} handleCategoryChange={handleCategoryChange} />
       {renderCategory()}

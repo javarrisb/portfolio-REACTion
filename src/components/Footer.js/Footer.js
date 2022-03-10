@@ -1,12 +1,12 @@
 import React from 'react';
 import githublogo from '../../assets/images/github.png';
 import linkedlogo from '../../assets/images/linkedin.png';
+import stackoverlogo from '../../assets/images/stackoverflow.png';
 
 function Footer() {
     return (
         <div className='footer-container'>
-            <h1 className='footer'>[An application brought to you by Javarris Barnett]</h1>
-            <a href="https://github.com/javarrisb" target="_blank" rel="noreferrer">
+            <a href="https://github.com/javarrisb" className='footer-logo' target="_blank" rel="noreferrer">
                 <img
                     src={githublogo}
                     alt="github logo" />
@@ -16,6 +16,13 @@ function Footer() {
                 <img
                     src={linkedlogo}
                     alt="linkedin logo"
+                />
+            </a>
+
+            <a href="https://stackoverflow.com/users/16946548/javarrisb" target="_blank" rel='noreferrer'>
+                <img
+                    src={stackoverlogo}
+                    alt="stackoverflow logo"
                 />
             </a>
 
