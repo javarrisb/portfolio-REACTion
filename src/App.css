@@ -27,8 +27,7 @@ body {
 .head {
   align-self: center;
   color: var(--color-navy);
-  font-size: 8vw;
-  border: 2px solid;
+  font-size: 75px;
   border-radius: 5px;
   font-weight: bold;
 }
@@ -72,13 +71,33 @@ body {
   padding: 2vw;
 }
 
-.nav {
-  list-style-type: none;
+.nav-app {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
   font-size: 2vw;
-  margin: 1vw 6vw;
+}
+
+.nav-name {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-links {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.nav-links li {
+  margin: 0 1rem;
+  cursor: pointer;
+  font-size: 3vw;
 }
 
 .nav-info {

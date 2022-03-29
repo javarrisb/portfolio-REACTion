@@ -2,9 +2,8 @@ import React from 'react';
 
 
 function Header() {
-    return(
+    return (
         <header className='header'>
-            <h1 className='head'>Javarris Barnett</h1>
         </header>
     )
 }
