@@ -41,17 +41,6 @@ body {
   margin-top: 6vh;
   border: 2px solid var(--color-gold);
 }
-.header-ab,
-.header-port,
-.header-contact,
-.header-resume {
-  color: var(--secondary);
-  display: flex;
-  justify-content: center;
-  font-size: 5vw;
-  text-align: center;
-  border: 2px solid var(--color-navy);
-}
 
 .picture {
   display: flex;
@@ -138,6 +127,15 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.project-port {
+  flex: 30%;
+}
+
+.projects {
+  width: 100%;
+  position: relative;
 }
 
 .image-name {

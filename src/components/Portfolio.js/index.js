@@ -1,40 +1,47 @@
 import React, { useState } from 'react';
 
-const Portfolio = ({ project }) => {
-    const [photos] = useState([
-        {
-            name: "Game Corner",
-            deployed: 'https://afternoon-reef-79835.herokuapp.com/',
-            github: 'https://github.com/kerbunker/game-collection'
-        },
-        {
-            name: "Tech About It",
-            deployed: 'https://tech-about-it.herokuapp.com/',
-            github: 'https://github.com/javarrisb/tech-about-it'
-        },
-        {
-            name: 'Travel Buddy',
-            deployed: 'https://khaoulaja.github.io/Travel-Buddy/',
-            github: 'https://github.com/javarrisb/Travel-Buddy'
-        },
-        {
-            name: "Team Generator",
-            deployed: 'https://javarrisb.github.io/Team-Generator/',
-            github: 'https://github.com/javarrisb/Team-Generator'
-        },
-        {
-            name: "Smart Money",
-            deployed: 'https://blooming-beach-28479.herokuapp.com/',
-            github: 'https://github.com/javarrisb/smart-money'
-        },
-        {
-            name: "Note Taker",
-            deployed: 'https://peaceful-eyrie-47224.herokuapp.com/',
-            github: 'https://github.com/javarrisb/note-taker'
-        }
-    ])
+const projects = [
+    {
+        name: "Car-Dash",
+        picture: "s0",
+        link: "https://limitless-reaches-44145.herokuapp.com/",
+        github: "https://github.com/javarrisb/Car-Dash",
+    },
+    {
+        name: "Game-Corner",
+        picture: "s1",
+        link: "https://afternoon-reef-79835.herokuapp.com/",
+        github: "https://github.com/kerbunker/game-collection"
+    },
+    {
+        name: 'Travel Buddy',
+        picture: "s2",
+        link: 'https://khaoulaja.github.io/Travel-Buddy/',
+        github: 'https://github.com/javarrisb/Travel-Buddy'
+    },
+    {
+        name: "Tech About It",
+        picture: "s3",
+        link: 'https://tech-about-it.herokuapp.com/',
+        github: 'https://github.com/javarrisb/tech-about-it'
 
-    const currentProjects = photos.filter(photo => photo.project === project);
+    },
+    {
+        name: "Team Generator",
+        picture: "s4",
+        link: 'https://javarrisb.github.io/Team-Generator/',
+        github: 'https://github.com/javarrisb/Team-Generator'
+    },
+    {
+        name: "Smart Money",
+        picture: "s5",
+        link: 'https://blooming-beach-28479.herokuapp.com/',
+        github: 'https://github.com/javarrisb/smart-money'
+    },
+
+]
+
+const Portfolio = () => {
 
     return (
         <div className='port-container'>
