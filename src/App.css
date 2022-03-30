@@ -6,6 +6,7 @@
   --color-white: #ffffff;
   --color-pink: #ff66cc;
   --color-blue: #87ceeb;
+  --color-gray: #d3d3d3;
 }
 
 body {
@@ -32,14 +33,14 @@ body {
   font-weight: bold;
 }
 .container-aboutme {
-  background-color: var(--color-gold);
+  background-color: var(--color-gray);
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
   margin: auto;
   margin-top: 6vh;
-  border: 2px solid var(--color-gold);
+  border: 2px solid var(--color-blue);
 }
 
 .picture {
@@ -51,7 +52,7 @@ body {
   display: flex;
   width: 100%;
   border-radius: 4px;
-  border: solid black;
+  border: solid var(--color-blue);
 }
 
 .aboutme-text {
@@ -95,7 +96,7 @@ body {
 }
 
 .nav-info-active {
-  color: var(--color-gold);
+  color: var(--color-gray);
   text-decoration: none;
   border: 2px solid;
 }
@@ -113,7 +114,7 @@ body {
 }
 
 .port-container {
-  background-color: var(--color-gold);
+  background-color: var(--color-gray);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -169,7 +170,7 @@ body {
 }
 
 .contact-container {
-  background-color: var(--color-gold);
+  background-color: var(--color-gray);
   display: flex;
   margin: auto;
   justify-content: center;
@@ -180,9 +181,16 @@ body {
 }
 
 .contact-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: auto;
+  width: 50%;
+}
+
+.header-contact {
+  font-size: 2rem;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  z-index: 2;
 }
 
 .label-input {
@@ -190,7 +198,7 @@ body {
 }
 
 .input-form {
-  border: 0.2vw solid black;
+  border: 0.2vw solid var(--color-gray);
   border-radius: 4px;
   margin-top: 0;
   font-size: 2vw;
@@ -210,12 +218,19 @@ body {
   border: solid black;
 }
 
+.btn-success {
+  margin: 15px;
+  padding: 4px 10px;
+  border: none;
+  font-size: 15px;
+}
+
 .resume-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 90%;
-  background-color: var(--color-gold);
+  background-color: var(--color-gray);
   color: var(--color-navy);
   margin: auto;
   border-radius: 4px;

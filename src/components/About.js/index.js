@@ -12,11 +12,11 @@ function About() {
             </div>
             <div className="aboutme-text">
                 <p>
-                    My name is Javarris Barnett and I am embarking on the journey of becoming a full stack web developer. I am attending UNC Chapel Hill Coding bootcamp and love developing innovative web applications with new, cutting edge technology as the ones in this portfolio. When I am not coding and developing, I really enjoy traveling, reading and outdoor activities with the family and pet dog.
+                    My name is Javarris Barnett, born and raised in Charlotte, NC. I am a people person and team oriented person with my background being professional basketball and real estate agent. Switching careers and going through UNC Coding Bootcamp was an experience that taught me not only technolgy skills and languages but also life skills that I will implement daily in my career.Becoming a full stack developer has been a very satisfying journey in my life and I hope to continue learning and developing applications that will help make users lives better. When I am not coding and developing, you can find me traveling, reading and outdoor activities with the family and pet dog.
                 </p>
             </div>
 
-        </section>
+        </section >
     );
 }
 

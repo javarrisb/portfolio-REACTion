@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './App.css';
 import About from './components/About.js';
-import Header from './components/Header.js';
 import Nav from './components/Nav.js';
 import Contact from './components/Contact.js';
 import Portfolio from './components/Portfolio.js';
@@ -30,7 +29,6 @@ function App() {
 
   return (
     <div>
-      <Header />
       <Nav currentCategory={currentCategory} handleCategoryChange={handleCategoryChange} />
       {renderCategory()}
       <Footer />
