@@ -13,12 +13,15 @@ body {
   background-color: var(--color-blue);
   color: var(--color-navy);
 }
+
+
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: var(--font-base);
 }
+
 
 .header {
   display: flex;
@@ -169,29 +172,19 @@ body {
   margin-bottom: 4vw;
 }
 
-.contact-container {
+.container-contact {
   background-color: var(--color-gray);
   display: flex;
   margin: auto;
   justify-content: center;
-  margin-top: 6vh;
+  margin-top: 15vh;
   width: 90%;
   border: 2px solid;
   border-radius: 3px;
+  font-size: 30px;
 }
 
-.contact-form {
-  margin: auto;
-  width: 50%;
-}
 
-.header-contact {
-  font-size: 2rem;
-  width: fit-content;
-  margin: auto;
-  position: relative;
-  z-index: 2;
-}
 
 .label-input {
   font-size: 3vw;

@@ -5,31 +5,37 @@ const Portfolio = ({ projects }) => {
         {
             name: "Car-Dash",
             link: "https://limitless-reaches-44145.herokuapp.com/",
+            tech: "Technolgies used: React, React Router, GraphQL, MongoDB, Apollo Server, JWT",
             github: "https://github.com/javarrisb/Car-Dash",
         },
         {
             name: "Game-Corner",
             link: "https://afternoon-reef-79835.herokuapp.com/",
+            tech: "Technologies used: JavaScript, Bootstrap, Node.js, Express.js, MySQL, Sequelize ORM",
             github: "https://github.com/kerbunker/game-collection"
         },
         {
             name: 'Travel Buddy',
             link: 'https://khaoulaja.github.io/Travel-Buddy/',
+            tech: "Technologies used: HTML, CSS, JavaScript, jQuery, APIs",
             github: 'https://github.com/javarrisb/Travel-Buddy'
         },
         {
             name: "Tech About It",
             link: 'https://tech-about-it.herokuapp.com/',
+            tech: "Technologies used: CSS, JavaScript, Handlebars.js, MySQL, Sequelize ORM",
             github: 'https://github.com/javarrisb/tech-about-it'
         },
         {
             name: "Team Generator",
             link: 'https://javarrisb.github.io/Team-Generator/',
+            tech: "Technologies used: Bootstrap, JavaScript, Node.js",
             github: 'https://github.com/javarrisb/Team-Generator'
         },
         {
             name: "Smart Money",
             link: 'https://blooming-beach-28479.herokuapp.com/',
+            tech: "Technologies used: HTML, CSS, JavaScript, Express.js, MongoDB",
             github: 'https://github.com/javarrisb/smart-money'
         },
     ])
@@ -50,6 +56,7 @@ const Portfolio = ({ projects }) => {
                             className="image-project"
                         />
                     </a>
+                    {image.tech}
                     <a href={image.github} className="btn btn-success">GH Repo</a>
                 </div>
             ))}
