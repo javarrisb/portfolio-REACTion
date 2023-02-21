@@ -29,8 +29,8 @@ const Portfolio = ({ projects }) => {
         {
             name: "Team Generator",
             link: 'https://javarrisb.github.io/Team-Generator/',
-            tech: "Technologies used: Bootstrap, JavaScript, Node.js",
-            github: 'https://github.com/javarrisb/Team-Generator'
+            tech: 
+            github
         },
         {
             name: "Smart Money",
